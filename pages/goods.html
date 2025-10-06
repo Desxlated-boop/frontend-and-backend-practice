@@ -8,8 +8,10 @@
 </head>
 <body>
     <div class="page-container">
-        <div class="header">Хэдер</div>
-        <div class="nav">
+        <header class="header">
+            <h1>Хэдер</h1>
+        </header>
+        <nav class="nav">
             <ul class="nav-list">
                 <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
                 <li class="nav-item"><a class="nav-link" href="../pages/news.html">Новости</a></li>
@@ -17,32 +19,41 @@
                 <li class="nav-item"><a class="nav-link" href="../pages/goods.html">Товары</a></li>
                 <li class="nav-item"><a class="nav-link" href="../pages/contacts.html">Контакты</a></li>
             </ul>
-        </div>
+        </nav>
 
-    <div id="content">
-        <h1 class="title">Товары</h1>
-        
-        <div class="products-container">
-            <div class="product-card">
-                <img src="../images/product1.jpg" alt="Гантель" width="200">
-                <h3>Жёсткая гантель для настоящих мужчин</h3>
-                <p class="price">2400 руб.</p>
-            </div>
-        
-            <div class="product-card">
-                <img src="../images/product2.jpg" alt="Креатинчик" width="200">
-                <h3>Креатинчик для ваших мышц</h3>
-                <p class="price">3 499 руб.</p>
-            </div>
+        <main class="content">
+            <article class="products-title">Товары</article>
+            <h2 class="products-description">Лучшие товары прямиком из Еревана (шпака нет).</h2>
             
-            <div class="product-card">
-                <img src="../images/product3.jpg" alt="Ноутбук" width="320">
-                <h3>Ноутбук правда для учебы</h3>
-                <p class="price">79999 руб.</p>
-            </div>
-        </div>    
-    <div>
-
-    <div class="footer">Футер</div>
+            <div class="products-grid">
+                <section class="product-card">
+                    <img src="../images/product1.jpg" alt="Гантель" width="200">
+                    <h3>Гантель</h3>
+                    <p class="product-description">Жесточайшая гантелька по приятной цене, которая уничтожит ваши мышцы. С помощью неё вы сможете в дверной проём входить бочком,
+                    любить печеньки с молочком.</p>
+                    <p class="price">1000 руб.</p>
+                </section>
+            
+                <section class="product-card">
+                    <img src="../images/product2.jpg" alt="Креатинчик" width="200">
+                    <h3>Креатин</h3>
+                    <p class="product-description">Креатинчик для ваших мышц, 600г. Цена кусается, но оно того стоит: зальёт так, что весы покажут +4кг. 
+                    После отмены креатина лишаетесь квартиры. Не советую.(Информация рофл, этот креатин того не стоит)</h3>
+                    <p class="price">3300 руб.</p>
+                </section>
+                
+                <section class="product-card">
+                    <img src="../images/product3.jpg" alt="Ноутбук" width="320">
+                    <h3>Ноутбук</h3>
+                    <p class="product-description">Мощнейший ноутбук IRBIS: 4 гига, 4 ядра, игровая видеокарта. Лучший вариант для учёбы. Ворд летает,
+                    киберпанк лагает (ну он везде лагает).</p>
+                    <p class="price">17999 руб.</p>
+                </section>
+            </div>    
+        </main>
+        <footer class="footer">
+            <p>Конец страницы</p>
+        </footer>
+    </div>
 </body>
 </html>
