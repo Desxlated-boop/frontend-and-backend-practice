@@ -335,17 +335,39 @@ main.content {
 }
 
 /* ===== КОНТАКТЫ ===== */
-.contacts-container {
+.contacts-grid {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr) auto-fit;
+    
+}
+
+.contact-card {
+    background-color: rgb(193, 194, 218);
+    border-radius: 16px;
+    font-size:medium;
+    font-weight:500;
+    color:#000000;
+    margin-bottom: 10px;
+    padding: 0 16px;
     text-align: center;
 }
 
-.contact-info {
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-    padding: 25px;
-    margin: 20px 0;
-    border-radius: 15px;
-    font-size: 18px;
-    color: #2c3e50;
+.contacts-title {
+    text-align: center;
+    margin-bottom: 15px;
+    color:#050b45f3;
+    font-size: 24px;
+    font-weight: 600;
+}
+.contact-title {
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+    color: #333;
+}
+
+.contacts-container {
+    text-align: center;
 }
 
 .contact-button {
@@ -356,7 +378,7 @@ main.content {
     font-size: 16px;
     border-radius: 30px;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 5px;
     font-weight: 600;
     transition: all 0.3s ease;
 }

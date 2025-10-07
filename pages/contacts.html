@@ -8,7 +8,9 @@
 </head>
 <body>
     <div class="page-container">
-        <div class="header">Хэдер</div>
+        <header class="header">
+            <h1>Хэдер</h1>
+        </header>
         <div class="nav">
             <ul class="nav-list">
                 <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
@@ -19,23 +21,40 @@
             </ul>
         </div>
 
-        <div id="content">
-            <h1 class="title">Контакты</h1>
-            
-            <div class="contact-card">
-                <p><strong>Адрес электронной почты:</strong><br>NotAnabolicMan@gmail.com</p>
+        <main class="content">
+            <article class="contacts-title">Контакты</article>
+            <div class="contacts-grid">
+                <section class="contact-card">
+                    <h2 class="contact-title">Электронная почта</h2>
+                    <p>Адрес электронной почты: NotAnabolicMan@gmail.com</p>
+                </section>
+                
+                <section class="contact-card">
+                    <h2 class="contact-title">Физический адрес</h2>
+                    <p>Адрес: США, штат Сан-Андреас, Лос-Сантос, р-н Стрейнджерс-Таун, ул. Карсон-Авеню, дом 1211</p>
+                </section>
+                
+                <section class="contact-card">
+                    <h2 class="contact-title">Мобильный</h2>
+                    <p>Номер телефона: 8 800 555-35-35</p>
+                </section> <!--на будущее: <button class="contact-button" onclick="alert('Больше не тыкай')">Позвоните мне</button>-->
+
+                <section class="contact-card">
+                    <h2 class="contact-title">Как связаться</h2>
+                    <p>Whatsapp, Одноклассники, telegram, Instagram (шучу, не бейте)</p>
+                </section>
+
+                <section class="contact-card">
+                    <h2 class="contact-title">Время работы</h2>
+                    <p>Пн-Пт: 10:00-22:00</p>
+                    <p>Сб-Вс: 10:00-10:05</p>
+                </section>
+
             </div>
-            
-            <div class="contact-card">
-                <p><strong>Адрес:</strong><br>США, штат Сан-Андреас, Лос-Сантос, р-н Стрейнджерс-Таун, ул. Карсон-Авеню, дом 1211</p>
-            </div>
-            
-            <div class="contact-card">
-                <p><strong>Номер телефона:</strong><br>8 800 555-35-35</p>
-                <button onclick="alert('Функция звонка будет реализована позже')">Позвоните мне</button>
-            </div>
-            <div class="footer">Футер</div>
-        </div>  
+        </main>
+        <footer class="footer">
+            <p>Футер</p>
+        </footer>
     </div>
 </body>
 </html>
