@@ -337,12 +337,12 @@ main.content {
 /* ===== КОНТАКТЫ ===== */
 .contacts-grid {
     display: grid;
-    grid-template-rows: repeat(3, 1fr) auto-fit;
-    
+    grid-template-rows: repeat(5, auto);
+    gap: 10px;
 }
 
 .contact-card {
-    background-color: rgb(193, 194, 218);
+    background-color: rgb(181, 200, 228);
     border-radius: 16px;
     font-size:medium;
     font-weight:500;
@@ -350,6 +350,11 @@ main.content {
     margin-bottom: 10px;
     padding: 0 16px;
     text-align: center;
+}
+
+.contact-card p {
+    margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 .contacts-title {
@@ -364,6 +369,7 @@ main.content {
     font-size: large;
     font-weight: 600;
     color: #333;
+    margin-top: 10px;
 }
 
 .contacts-container {
